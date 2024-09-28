@@ -1,5 +1,5 @@
-FROM bitnami/python:3.11.4
-WORKDIR /app
+FROM bitnami/python:3.10.4
+WORKDIR /health_management
 
 COPY . .
 
